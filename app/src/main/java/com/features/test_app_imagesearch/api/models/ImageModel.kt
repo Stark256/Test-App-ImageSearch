@@ -15,7 +15,7 @@ import com.fasterxml.jackson.annotation.JsonPropertyOrder
 )
 class ImageModel(
     @JsonProperty("position") var id: Int,
-    @JsonProperty("thumbnail") var thumbnail: Any,
+    @JsonProperty("thumbnail") var thumbnail: String,
     @JsonProperty("sourceUrl") var sourceUrl: String,
     @JsonProperty("title") var title: String,
     @JsonProperty("link") var link: String,
